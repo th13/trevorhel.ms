@@ -139,3 +139,11 @@ body {
 .social-spacer {
   margin: 0 2rem;
 }
+
+// Media queries
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  // Need less top padding on phones
+  .content {
+    padding-top: 7.5rem;
+  }
+}
