@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+// Colors
+$background-color: #fff;
+$light-black: #303030;
+$pretty-blue: #a8d3f1;
+$fun-yellow: #f8fa90;
+$amusing-green: #C9EA87;
+
+$footer-height: 10rem;
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background: $fun-yellow;
+  color: $light-black;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.spacer {
+  margin: 3rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.line-spacer {
+  border-bottom: 1px;
+  border-bottom-color: $light-black;
+  border-bottom-style: solid;
+  width: 100%;
+  margin-top: -1.5rem;
+  margin-bottom: 5rem;
+}
+
+
+/*
+* Navbar
+*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 1.5rem;
+  color: $light-black;
+  font-size: 1.25rem;
+  
+  ul {
+    list-style: none;
+    text-align: right;
+    font-weight: 300;
+    font-size: 1.25em;
+    
+    li {
+      display: inline;
+      
+      a {
+        text-decoration: none;
+        color: $light-black;
+      }
+    }
+    
+    .nav-link-separator {
+      margin: 0 0.5em;
+    }
+  }
+}
+
+.content {
+  padding-top: 15rem;
+  padding-bottom: $footer-height;
+}
+
+
+/**
+* about me
+*/
+#about {
+  margin-right: 20rem;
+  margin-bottom: 5rem;
+}
+
+
+/**
+* my work
+*/
+#mywork {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/**
+* Footer
+*/
+.footer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: $footer-height;
+  background-color: $light-black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  i.fa {
+    font-size: 2.75rem;
+    
+    &:hover {
+      color: $pretty-blue;
+    }
+  }
+}
+
+.social-spacer {
+  margin: 0 2rem;
+}
