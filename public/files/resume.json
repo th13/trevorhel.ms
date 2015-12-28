@@ -1,0 +1,99 @@
+{
+	"basics": {
+		"name": "Trevor Helms",
+		"label": "",
+		"picture": "",
+		"email": "thelms501@gmail.com",
+		"phone": "(305) 842-0743",
+		"website": "http://trevorhel.ms",
+		"summary": "",
+		"location": {
+			"address": "1807 Devra Dr",
+			"postalCode": "",
+			"city": "Tallahassee",
+			"countryCode": "",
+			"region": "FL 32304"
+		},
+		"profiles": [{
+			"network": "GitHub",
+			"username": "th13",
+			"url": "http://github.com/th13"
+		}]
+	},
+	"work": [{
+		"company": "HackFSU",
+		"position": "Developer",
+		"website": "http://hackfsu.com",
+		"startDate": "2013-10-01",
+			"current": true,
+		"summary": "Helped found HackFSU, Florida State's annual hackathon. In addition, was part of a small group that began development for HackFSU applications, including a website with registration and admin dashboard and the Android application that hackers used during the event.",
+			"highlights": [
+				"Created original Android application with over 100 installations by attendees of the event.",
+				"Helped create and design the website for the past 3 years.",
+				"Utilized MVC architecture with an \"Express.js\" twist to plan, organize, and develop a web server with Node and Express.js to deliver an API for use by the HackFSU website and mobile applications.",
+				"Helped to \"future-proof\" the HackFSU web server/API and client-side application by utilizing good software engineering practices, including modularizing the code, refactoring, and adhering to strict coding and design guidelines."
+			]
+	}],
+	"volunteer": [],
+	"education": [{
+		"institution": "Florida State University",
+		"area": "Computer Science",
+		"studyType": "Bachelor of Science",
+		"startDate": "2013-08-23",
+		"endDate": "2017-05-01",
+		"gpa": "3.75",
+		"courses": [
+			"Software Engineering",
+			"Data Structures & Algorithms",
+			"Object-Oriented Design & Programming",
+			"Database Theory & Structure",
+			"Computer Organization",
+			"Japanese (to the intermediate level)",
+			"Calculus, Discrete Mathematics, Probability",
+			"UNIX Systems"
+		]
+	}],
+	"awards": [],
+	"publications": [],
+	"skills": [{
+		"name": "NodeJS",
+		"level": "Intermediate",
+		"keywords": [
+			"ExpressJS",
+			"Backend Development",
+			"REST APIs",
+			"JSON"
+		]
+	},
+	{
+		"name": "Frontend Web Development",
+		"level": "Intermediate",
+		"keywords": [
+			"HTML",
+			"CSS",
+			"JS/jQuery",
+			"AngularJS"
+		]
+	},
+	{
+		"name": "Databases",
+		"level": "Intermediate",
+		"keywords": [
+			"SQL (MySQL, SQLite)",
+			"NoSQL (MongoDB)",
+			"Backend as a Service (BaaS) Platforms (Parse)"
+		]
+	}],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "Japanese",
+			"fluency": "Intermediate"
+		}
+	],
+	"interests": [],
+	"references": []
+}
